@@ -1,0 +1,381 @@
+/* General */
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:##e5e5e5;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 80px; /* Ajusta el espacio para que no choque con el contenido */
+    background-image: url('imagenes/fondo3.jpg');
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Encabezado */
+header {
+    background-color: rgba(51, 51, 51, 0.6); /* Color con 60% de opacidad */
+    color: white;
+    padding: 20px 0; /* Altura de la barra de navegación */
+    text-align: center;
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em; /* Agranda el tamaño del título */
+    font-weight: bold;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Eliminar subrayado */
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover, 
+nav ul li a:focus, 
+nav ul li a:active {
+    color: #aaa; /* Cambia el color del texto a gris cuando se selecciona */
+}
+
+.image-container {
+    display: flex;               /* Usa flexbox para alinear las imágenes en una fila */
+    justify-content: center;     /* Centra horizontalmente el contenido */
+   
+
+}
+
+/* Estilo para las imágenes */
+.image-container img {
+    width: 250px;               /* Ancho de cada imagen, ajusta según necesites */
+    height: auto;               /* Mantiene la proporción de la imagen */    
+    margin:50px;            /* Espacio horizontal entre las imágenes */
+    border-radius: 8px;        /* Esquinas redondeadas, opcional */
+    margin-top: 150px;
+}
+
+
+/* Sección de introducción (primera sección) */
+section.intro {
+    margin-top: 210px; /* Aumentar el margen superior para que no se sobreponga con la barra fija */
+    padding-top: 80px; /* Asegurar que el fondo no se sobreponga con la barra fija */
+}
+
+
+/* Secciones */
+section {
+    padding: 30px;
+    margin: 10px auto; /* Reducir margen entre secciones */
+    background-color: #dedede;
+    border-radius: 15px; /* Bordes más redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1300px; /* Limitar el ancho máximo de las secciones */
+    width: 100%; /* Ajustar para que haya margen en los costados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añadir transición */
+}
+
+/* Efecto al pasar el ratón */
+section:hover {
+    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Aumentar la sombra */
+}
+
+.otroproyecto{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-bottom: -30px;
+    position: relative;
+    top: 50px;
+
+}
+/* Estilo para el contenedor de los recuadros */
+.recuadros-container {
+    
+    max-width: 1500px;
+    margin: 0 auto; /* Centra el contenedor de recuadros */
+    padding: 30px;
+    position: relative;
+    top: 20px;
+}
+
+/* Estilo para cada recuadro */
+.recuadro {
+  background-color: black;
+    background-color: rgba(51, 51, 51, 0.7); /* Color con 60% de opacidad */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 40px; /* Espacio entre los recuadros */
+   
+}
+
+.recuadro h2 {
+    margin-top: 0;
+}
+
+/* Estilo para el contenedor de los recuadros */
+.recuadros2-container {
+    
+    max-width: 1500px;
+    margin: 0 auto; /* Centra el contenedor de recuadros */
+    padding: 30px;
+    position: relative;
+    top: -80px;
+}
+
+/* Estilo para cada recuadro */
+.recuadro2 {
+    background-color: black;
+    background-color: rgba(51, 51, 51, 0.7); /* Color con 60% de opacidad */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 40px; /* Espacio entre los recuadros */
+   
+}
+
+.recuadro2 h2 {
+    margin-top: 0;
+}
+
+.ultimoproy {
+    background-color:  #dedede; /* Fondo blanco */
+    
+    width: 74%; /* Asegura que cubra todo el ancho */
+    padding: 50px 0; /* Espaciado vertical para el contenido */
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: -60px;
+    margin-bottom: 50px;
+}
+
+.foto14{
+    height: 600px;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.principios{
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 50px;
+}
+
+.principios1{
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 150px;
+  text-align: center;
+  margin-bottom: -80px;
+}
+
+.uno{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.dos{
+text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.tres{
+text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.cuatro{
+text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.cinco{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.cosito1{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.cosito2{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.cosito3{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.cosito4{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.cosito5{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 40px;    
+}
+.cosito1a{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+     background-color: black;
+    background-color: rgba(51, 51, 51, 0.7); /* Color con 60% de opacidad */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.cosito2a{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+     background-color: black;
+    background-color: rgba(51, 51, 51, 0.7); /* Color con 60% de opacidad */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.cosito3a{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+     background-color: black;
+    background-color: rgba(51, 51, 51, 0.7); /* Color con 60% de opacidad */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.cosito4a{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+     background-color: black;
+    background-color: rgba(51, 51, 51, 0.7); /* Color con 60% de opacidad */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.cosito5a{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+     background-color: black;
+    background-color: rgba(51, 51, 51, 0.7); /* Color con 60% de opacidad */
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.carousel-container {
+    width: 100%;  /* Ajusta el ancho del carrusel */
+    overflow: hidden; /* Oculta el contenido que no cabe en el contenedor */
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel-slide {
+    display: flex;  /* Usa flexbox para alinear los elementos en una fila */
+    transition: transform 0.5s ease-in-out;  /* Transición para el deslizamiento */
+    width: 100%;  /* Asegura que haya suficiente espacio para todos los elementos */
+}
+
+.carousel-slide > * {
+    min-width: 100%;  /* Cada elemento ocupa el 100% del ancho del carrusel */
+    box-sizing: border-box;
+}
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white; /* Color de las flechas */
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000;
+    background: none; /* Eliminar fondo */
+    border: none; /* Eliminar borde */
+    outline: none; /* Evitar que se muestre el borde cuando se haga clic */
+    padding: 10px; /* Añadir algo de espaciado si lo necesitas */
+}
+
+.prev {
+    left: 10px; /* Ajustar posición izquierda */
+}
+
+.next {
+    right: 10px; /* Ajustar posición derecha */
+}
+
+/* Asegura que el contenedor del carrusel esté en posición relativa para las flechas */
+.carousel-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
